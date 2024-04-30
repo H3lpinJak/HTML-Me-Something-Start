@@ -1,1 +1,27 @@
 /* Write your CSS here! */
+
+body {
+        background-image: url("https://img.freepik.com/premium-photo/mystical-scroll-paper-texture-background_922357-19701.jpg");
+        background-repeat:repeat-y;
+        background-size: 80%;
+        background-position: center;
+        
+ }
+ h1 {
+    color: maroon;
+} 
+ h2 {
+    color: darkmagenta;
+    margin: 10%;
+}
+ h3 {
+    color: darkmagenta;
+}
+ h4 {
+    color: darkmagenta;
+}
+p {
+    word-spacing: 5px;
+  }
+ 
+ 
