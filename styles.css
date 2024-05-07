@@ -13,12 +13,13 @@ body {
     background-repeat: repeat-y;
     background-size: 80%;
     background-position: center;
-    background-color: rgb(2, 2, 2);
+    background-color: rgb(75, 1, 88);
     font-family: cursive;
     margin: 8px; 
     padding: 0;
     display: block; 
 }
+
 #mainHeading {
     color: blue;
 }
@@ -34,7 +35,7 @@ body {
     padding: 20px;
 }
 footer {
-    color: darkmagenta;
+    color: white;
 }
 .spell {
     font-size: 50px;
@@ -81,10 +82,6 @@ footer {
         text-shadow: 0 0 20px #790dc1, 0 0 30px #6c1baa, 0 0 40px #aa3de9, 0 0 50px #b320e4, 0 0 60px #7122a2, 0 0 70px #ae08fb, 0 0 80px #8b18de;
     }
 }
-p1 {
-    font-size: 20px;
-    color: white;
-}
 article{
     font-size: 25px;
     color: white;
@@ -107,10 +104,10 @@ article{
 .ward-charm-image {
     display: block;
     margin: 0 auto;
-  }
-  .how-to-use {
+}
+.how-to-use {
     margin-top: 20px; 
-  }
+}
 .inferno-section {
     margin-top: 100%;
 }
@@ -121,10 +118,10 @@ article{
     margin-bottom: 20px; 
 }
 
-.inferno-section img {
+.inferno-image {
     width: 50%;
     height: auto; 
-    display: block;
+    /*display: block;*/
     margin: 10px auto; 
     border-radius: 5px; 
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
@@ -147,4 +144,19 @@ h5 {
 h6 {
     font-size: 75px;
     color: rgb(22, 236, 19);
+}
+p1 {
+font-size: 20px;
+color: white;
+}
+p {
+    font-size: 18px;
+    color: orangered;
+}
+p7 {
+    color: greenyellow;
+    font-size: 18px;
+}
+p2 {
+    color: rgb(133, 3, 129);
 }
