@@ -1,27 +1,150 @@
-/* Write your CSS here! */
+header {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 200px;
+}
+main {
+    text-align: center;
+    padding: 20px;
+}
 
 body {
-        background-image: url("https://img.freepik.com/premium-photo/mystical-scroll-paper-texture-background_922357-19701.jpg");
-        background-repeat:repeat-y;
-        background-size: 80%;
-        background-position: center;
-        
- }
- h1 {
-    color: maroon;
-} 
- h2 {
-    color: darkmagenta;
-    margin: 10%;
+    background-image: url("https://img.freepik.com/premium-photo/mystical-scroll-paper-texture-background_922357-19701.jpg");
+    background-repeat: repeat-y;
+    background-size: 80%;
+    background-position: center;
+    background-color: rgb(2, 2, 2);
+    font-family: cursive;
+    margin: 8px; 
+    padding: 0;
+    display: block; 
 }
- h3 {
+#mainHeading {
+    color: blue;
+}
+.funParagraph {
+    font-style: italic; 
+}
+.spell-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px;
+}
+footer {
     color: darkmagenta;
 }
- h4 {
-    color: darkmagenta;
+.spell {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px; 
 }
-p {
-    word-spacing: 5px;
+
+.glow {
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #d4eba0, 0 0 20px #9daa62, 0 0 30px #bde245, 0 0 40px #a0b155, 0 0 50px #f0f643, 0 0 60px #c9da4c, 0 0 70px #cde729;
+    }
+
+    to {
+        text-shadow: 0 0 20px #58c366, 0 0 30px #41bf50, 0 0 40px #43b44c, 0 0 50px #63d344, 0 0 60px #31cb41, 0 0 70px #26b039, 0 0 80px #4dff7c;
+    }
+}
+.glow1 {
+    animation: glow1 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow1 {
+    from {
+        text-shadow: 0 0 10px #82c7e5, 0 0 20px #47b9ca, 0 0 30px #2a99b1, 0 0 40px #38c0db, 0 0 50px #49c3c3, 0 0 60px #5ed8e8, 0 0 70px #15bceb;
+    }
+
+    to {
+        text-shadow: 0 0 20px #1638a7, 0 0 30px #1d0af0, 0 0 40px #2a35cf, 0 0 50px #1027d2, 0 0 60px #0918c2, 0 0 70px #202af0, 0 0 80px #110ed0;
+    }
+}
+.glow2 {
+    animation: glow2 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow2 {
+    from {
+        text-shadow: 0 0 10px #f475e3, 0 0 20px #e174ea, 0 0 30px #ec78f6, 0 0 40px #ec55d8, 0 0 50px #b73fa3, 0 0 60px #ef68f7, 0 0 70px #c751d6;
+    }
+
+    to {
+        text-shadow: 0 0 20px #790dc1, 0 0 30px #6c1baa, 0 0 40px #aa3de9, 0 0 50px #b320e4, 0 0 60px #7122a2, 0 0 70px #ae08fb, 0 0 80px #8b18de;
+    }
+}
+p1 {
+    font-size: 20px;
+    color: white;
+}
+article{
+    font-size: 25px;
+    color: white;
+}
+.glow,
+.glow1,
+.glow2 {
+    font-size: 60px;  
+    margin-bottom: 50px;
+    padding: 10px; 
+}
+.spell-section,
+.potion-section,
+.charm-section {
+    margin-top: 50px; 
+    padding-top: 20px; 
+    margin-bottom: 50px; 
+    padding-bottom: 20px;
+}
+.ward-charm-image {
+    display: block;
+    margin: 0 auto;
   }
- 
- 
+  .how-to-use {
+    margin-top: 20px; 
+  }
+.inferno-section {
+    margin-top: 100%;
+}
+
+.spell-section p {
+    font-size: 20px; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+
+.inferno-section img {
+    width: 50%;
+    height: auto; 
+    display: block;
+    margin: 10px auto; 
+    border-radius: 5px; 
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+h1 {
+    color: darkmagenta;
+}
+h2 {
+    color: darkorchid;
+}
+h4 {
+    font-size: 75px;
+    color: rgb(252, 80, 0);
+}
+h5 {
+    font-size: 75px;
+    color: rgb(246, 10, 187);
+}
+h6 {
+    font-size: 75px;
+    color: rgb(22, 236, 19);
+}
